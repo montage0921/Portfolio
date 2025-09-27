@@ -1,1 +1,13 @@
 @import "tailwindcss";
+
+:root {
+  --font-type: "ui-sans-serif";
+  --bg-color: 210 50% 98%; /*white*/
+  --theme-color: 250 47% 60%; /*purple*/
+  --main-text-color: 222 46% 11%; /*black*/
+}
+
+.dark {
+  --bg-color: 220 50% 4%; /*white*/
+  --main-text-color: 210 50% 98%;
+}

@@ -5,9 +5,11 @@
   --bg-color: 210 50% 98%; /*white*/
   --theme-color: 250 47% 60%; /*purple*/
   --main-text-color: 222 46% 11%; /*black*/
+  --navbar-text-color: 222 46% 11%;
 }
 
 .dark {
   --bg-color: 220 50% 4%; /*white*/
   --main-text-color: 210 50% 98%;
+  --navbar-text-color: hsl(220 5% 70%);
 }

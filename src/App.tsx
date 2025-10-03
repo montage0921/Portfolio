@@ -1,11 +1,15 @@
 import { useEffect } from "react";
 import "./app.css";
-import DarkMode from "./components/DarkMode";
 import NavBar from "./sections/NavBar";
 import { useDarkMode } from "./context/DarkModeContext";
+import Home from "./sections/Home";
+import Journey from "./sections/Journey";
+import Skills from "./sections/Skills";
+import Projects from "./sections/Projects";
+import Contacts from "./sections/Contacts";
 
 function App() {
-  const { setIsDarkMode, isDarkMode, onToggleDarkMode } = useDarkMode();
+  const { setIsDarkMode } = useDarkMode();
   useEffect(() => {
     const isDark = localStorage.getItem("mode");
     if (isDark === "dark") {
@@ -15,18 +19,19 @@ function App() {
       setIsDarkMode(false);
       document.documentElement.classList.remove("dark");
     }
-  }, []);
+  }, [setIsDarkMode]);
 
   return (
-    <div className="min-h-screen p-4 bg-[hsl(var(--bg-color))] text-[hsl(var(--main-text-color))]">
-      <div className="flex justify-between">
+    <div className=" min-h-screen bg-[hsl(var(--bg-color))] text-[hsl(var(--main-text-color))]  transition-colors duration-300">
+      <div className="fixed top-0 left-0 w-full z-50">
         <NavBar />
-        <DarkMode
-          onToggleDarkMode={onToggleDarkMode}
-          isDarkMode={isDarkMode}
-          size={40}
-        />
       </div>
+
+      <Home />
+      <Journey />
+      <Skills />
+      <Projects />
+      <Contacts />
     </div>
   );
 }

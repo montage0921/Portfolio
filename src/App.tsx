@@ -26,12 +26,13 @@ function App() {
       <div className="fixed top-0 left-0 w-full z-50">
         <NavBar />
       </div>
-
-      <Home />
-      <Journey />
-      <Skills />
-      <Projects />
-      <Contacts />
+      <div className="pt-16">
+        <Home />
+        <Journey />
+        <Skills />
+        <Projects />
+        <Contacts />
+      </div>
     </div>
   );
 }

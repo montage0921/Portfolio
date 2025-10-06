@@ -1,4 +1,3 @@
-import React from "react";
 import MyButton from "../utility/MyButton";
 
 export default function MeIntro() {

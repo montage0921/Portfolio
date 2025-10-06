@@ -14,7 +14,7 @@ export default function Home() {
       id="home"
       className="min-h-screen flex flex-col justify-between items-center pt-30 md:pt-40 "
     >
-      <div className="flex flex-col justify-center items-center gap-6 mt-50">
+      <div className="flex flex-col justify-center items-center gap-6 mt-30">
         {" "}
         <motion.h1
           initial={{ opacity: 0, clipPath: "inset(0 100% 0 0)" }}
@@ -47,7 +47,7 @@ export default function Home() {
         </motion.div>
       </div>
       <motion.div
-        className="flex flex-col p-2 justify-center items-center"
+        className="flex flex-col p-2 justify-center items-center mb-20"
         animate={{ y: [0, 12, 0] }} // go down 12px then back up
         transition={{
           duration: 1.2,

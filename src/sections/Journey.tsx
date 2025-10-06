@@ -5,9 +5,12 @@ import SectionTitle from "../utility/SectionTitle";
 
 export default function Journey() {
   return (
-    <div id="journey" className="min-h-screen flex ">
-      <SectionTitle />
-      <div>
+    <div
+      id="journey"
+      className="min-h-screen flex flex-col items-center gap-7 pt-30"
+    >
+      <SectionTitle text="About" coloredText="Me" />
+      <div className="min-w-screen flex flex-col md:flex-row justify-center px-50 gap-10">
         <MeIntro />
         <MeTimeLine />
       </div>

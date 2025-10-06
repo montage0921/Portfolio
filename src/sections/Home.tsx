@@ -12,9 +12,9 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="min-h-screen flex flex-col justify-around items-center pt-40 md:pt-60 "
+      className="min-h-screen flex flex-col justify-between items-center pt-30 md:pt-40 "
     >
-      <div className="flex flex-col justify-center items-center gap-6">
+      <div className="flex flex-col justify-center items-center gap-6 mt-50">
         {" "}
         <motion.h1
           initial={{ opacity: 0, clipPath: "inset(0 100% 0 0)" }}
@@ -29,7 +29,7 @@ export default function Home() {
           className="text-base md:text-xl max-w-xl text-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
+          transition={{ delay: 0.8, duration: 0.8, ease: "easeOut" }}
         >
           A full-stack developer and recent CS grad, ready to bring fresh ideas
           and contribute from day one.
@@ -37,7 +37,7 @@ export default function Home() {
         <motion.div
           initial={{ opacity: 0, y: 100 }}
           animate={{ opacity: 1, y: 0 }}
-          transition={{ delay: 0.3, duration: 0.8, ease: "easeOut" }}
+          transition={{ delay: 0.8, duration: 0.8, ease: "easeOut" }}
         >
           <MyButton
             color={"var(--theme-color)"}

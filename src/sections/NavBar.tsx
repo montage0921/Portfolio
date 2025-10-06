@@ -9,7 +9,7 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   function handleScollIntoSection(id: string) {
     const section = document.getElementById(id);
-    section?.scrollIntoView({ behavior: "smooth", block: "center" });
+    section?.scrollIntoView({ behavior: "smooth", block: "start" });
     setIsOpen(false);
   }
   return (

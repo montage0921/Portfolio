@@ -1,5 +1,5 @@
 import React from "react";
 
 export default function MeTimeLine() {
-  return <div>MeTimeLine</div>;
+  return <div className="bg-green-400">MeTimeLine</div>;
 }

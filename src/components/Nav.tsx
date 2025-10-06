@@ -4,7 +4,11 @@ import { sections } from "../data/sections";
 export default function Nav() {
   function handleScollIntoSection(id: string) {
     const section = document.getElementById(id);
-    section?.scrollIntoView({ behavior: "smooth", block: "center" });
+    if (id === "home") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      section?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
   }
 
   return (

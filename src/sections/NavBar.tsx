@@ -9,9 +9,15 @@ export default function NavBar() {
   const [isOpen, setIsOpen] = useState(false);
   function handleScollIntoSection(id: string) {
     const section = document.getElementById(id);
-    section?.scrollIntoView({ behavior: "smooth", block: "start" });
+    if (id === "home") {
+      window.scrollTo({ top: 0, behavior: "smooth" });
+    } else {
+      section?.scrollIntoView({ behavior: "smooth", block: "start" });
+    }
+
     setIsOpen(false);
   }
+
   return (
     <div className="px-2 flex items-center justify-between md:px-8 py-4">
       <Logo />

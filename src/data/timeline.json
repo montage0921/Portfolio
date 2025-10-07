@@ -1,0 +1,88 @@
+[
+  {
+    "title": "Software Engineer Intern",
+    "location": "NY, USA",
+    "date": "2025.03-2025.10",
+    "organization": "Blinkle AI",
+    "skills": [
+      "Full-Stack Development",
+      "TypeScript",
+      "React",
+      "Node JS",
+      "Git",
+      "Teamwork"
+    ],
+    "description": "Worked with cross-functional teams to design, implement, and optimize full-stack features for an innovative resume-tailoring and job-board platform which helps many people during their job hunting process",
+    "img": "blinkle.jpg"
+  },
+  {
+    "title": "Master of Computer Science",
+    "location": "Buffalo, USA",
+    "date": "2024.08-2026.02",
+    "organization": "Univerity at Buffalo",
+    "skills": [
+      "Data Structure and Algorithm",
+      "Software Development",
+      "Machine Learning/AI",
+      "Operating System",
+      "Data Science",
+      "Database",
+      "Distribution System",
+      "Computer Security"
+    ],
+    "description": "Driven by a deep passion for computer science, I made the life-changing decision to pursue my master’s degree in this field. In the vibrant city of Buffalo, I have grown not only in knowledge but also in spirit — expanding my horizons, embracing new challenges, and forming friendships that will last a lifetime.",
+    "img": "buffalo.jpg"
+  },
+  {
+    "title": "Engineering Specialist",
+    "location": "Toronto, CA",
+    "date": "2022.03-2024.04",
+    "organization": "Admetal Robotics",
+    "skills": [
+      "Engineering Design",
+      "Workflow Automation",
+      "Python",
+      "WordPress",
+      "Customer Support",
+      "Problem Solving"
+    ],
+    "description": "Working at this multinational manufacturing and robotics company, I helped design mechanical components for their products and automated parts of their workflow for inventory management, gaining valuable experience in an engineering environment.",
+    "img": "admetal.png"
+  },
+  {
+    "title": "Master of Mechanical Engineering",
+    "location": "Calgary, CA",
+    "date": "2020.01-2022.02",
+    "organization": "University of Calgary",
+    "skills": ["Engineering", "Machine Learning", "Python", "VBA", "MATLAB"],
+    "description": "During my studies here, I was first introduced to the charm of programming while working on a CNN-based project for pipeline crack analysis. Since then, I’ve developed a strong interest in programming and began teaching myself in my spare time.",
+    "img": "uc.png"
+  },
+  {
+    "title": "Bachelor of Engineering",
+    "location": "Toronto, CA",
+    "date": "2015.07-2019.10",
+    "organization": "Toronto Metropolitian University",
+    "skills": [
+      "Engineering Discipline",
+      "Problem Solving",
+      "C",
+      "JAVA",
+      "MATLAB"
+    ],
+    "description": "University gave me a solid foundation in logical thinking and taught me how to solve problems under time constraints and pressure. It was also where I learned my first programming language, C.",
+    "img": "TMU-rgb.png"
+  },
+  {
+    "title": "Moving to Canada",
+    "date": "From 2014.06",
+    "description": "In 2014, I started a new chapter of my life in Canada. The experience allowed me to embrace different cultures, learn a new language, and finally, I come to see the country as my second home.",
+    "img": "canada.png"
+  },
+  {
+    "title": "Life in Lanzhou",
+    "date": "Before 2014.06",
+    "description": "I was born and raised in Lanzhou, a beautiful city in northwestern China known for the Yellow River and its delicious noodles. I still hold a deep love for this place.",
+    "img": "china.png"
+  }
+]

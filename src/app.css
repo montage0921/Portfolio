@@ -6,10 +6,16 @@
   --theme-color: 250 47% 60%; /*purple*/
   --main-text-color: 222 46% 11%; /*black*/
   --navbar-text-color: 222 46% 11%;
+  --card-bg: 0 0% 100%; /* #fafafa — light gray */
+  --card-text: 210 10% 20%; /* dark gray text */
+  --date-color: var(--main-text-color);
 }
 
 .dark {
   --bg-color: 220 50% 4%; /*white*/
   --main-text-color: 210 50% 98%;
   --navbar-text-color: hsl(220 5% 70%);
+  --card-bg: 225 25% 8%; /* #0b0f19 — dark navy */
+  --card-text: 220 15% 90%; /* near white */
+  --date-color: var(--navbar-text-color);
 }

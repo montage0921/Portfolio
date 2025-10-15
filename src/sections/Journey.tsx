@@ -9,7 +9,7 @@ export default function Journey() {
       className="min-h-screen flex flex-col items-center gap-7 pt-30"
     >
       <SectionTitle text="About" coloredText="Me" />
-      <div className="min-w-screen flex flex-col md:flex-row justify-center px-50 gap-10">
+      <div className="min-w-screen flex flex-col md:flex-row justify-center items-center gap-20">
         <MeIntro />
         <MeTimeLine />
       </div>

@@ -7,7 +7,7 @@ export default function MeIntro() {
   }
 
   return (
-    <div className="flex-1 flex flex-col gap-4 items-center text-center max-w-2xl md:max-w-xl leading-loose text-lg">
+    <div className="flex-1 flex flex-col gap-4 items-center justify-center text-center max-w-2xl md:max-w-xl leading-loose text-lg">
       <h3 className="text-xl md:text-2xl text-[var(--navbar-text-color)] font-semibold">
         Passionate Full-Stack Developer & AI Engineer
       </h3>

@@ -9,62 +9,62 @@ import timeline from "../data/timeline.json";
 
 export default function MeTimeLine() {
   return (
-    <div className="flex-1 flex justify-center items-center">
-      <div
-        style={{
-          height: "500px",
-          overflowY: "scroll",
-          scrollbarWidth: "none" /* Firefox */,
-          msOverflowStyle: "none" /* IE/Edge */,
-        }}
-      >
-        <VerticalTimeline lineColor="hsl(250 47% 60%)" layout="1-column-left">
-          {timeline.map((t) => (
-            <VerticalTimelineElement
-              contentStyle={{
-                background: "hsl(var(--card-bg))",
-                color: "hsl(var(--card-text))",
-                boxShadow: "none",
-                borderRadius: "12px",
-                width: "460px",
-                paddingBottom: "0px",
-                paddingRight: "25px",
-              }}
-              contentArrowStyle={{
-                borderRight: "7px solid  hsl(var(--card-bg))",
-              }}
-              iconStyle={{
-                boxShadow: "none",
-              }}
-              icon={<TimelineIcon imgName={t.img} />}
-            >
-              <div className="flex flex-col gap-1">
-                <h3 className="text-xl font-semibold">{t.title}</h3>
+    <div
+      style={{
+        marginTop: "30px",
+        height: "500px",
+        width: "600px",
+        overflowY: "scroll",
+        scrollbarWidth: "none" /* Firefox */,
+        msOverflowStyle: "none" /* IE/Edge */,
+      }}
+    >
+      <VerticalTimeline lineColor="hsl(250 47% 60%)" layout="1-column-left">
+        {timeline.map((t) => (
+          <VerticalTimelineElement
+            contentStyle={{
+              background: "hsl(var(--card-bg))",
+              color: "hsl(var(--card-text))",
+              boxShadow: "none",
+              borderRadius: "12px",
+              width: "460px",
+              paddingBottom: "0px",
+              paddingRight: "25px",
+            }}
+            contentArrowStyle={{
+              borderRight: "7px solid  hsl(var(--card-bg))",
+            }}
+            iconStyle={{
+              boxShadow: "none",
+            }}
+            icon={<TimelineIcon imgName={t.img} />}
+          >
+            <div className="flex flex-col gap-1">
+              <h3 className="text-xl font-semibold">{t.title}</h3>
 
-                <div className="flex gap-3 text-[hsl(var(--date-color))] font-semibold">
-                  {t.organization && <h4>{t.organization}</h4>}
-                  {t.location && <h4>{t.location}</h4>}
-                  <h4 className="">{t.date}</h4>
-                </div>
-
-                {t.skills && (
-                  <div className="flex flex-wrap gap-2 mt-1">
-                    {t.skills.map((s) => (
-                      <TimelineTag text={s} />
-                    ))}
-                  </div>
-                )}
-
-                <div className="">
-                  <p className="text-base !font-normal text-justify">
-                    {t.description}
-                  </p>
-                </div>
+              <div className="flex gap-3 text-[hsl(var(--date-color))] font-semibold">
+                {t.organization && <h4>{t.organization}</h4>}
+                {t.location && <h4>{t.location}</h4>}
+                <h4 className="">{t.date}</h4>
               </div>
-            </VerticalTimelineElement>
-          ))}
-        </VerticalTimeline>
-      </div>
+
+              {t.skills && (
+                <div className="flex flex-wrap gap-2 mt-1">
+                  {t.skills.map((s) => (
+                    <TimelineTag text={s} />
+                  ))}
+                </div>
+              )}
+
+              <div className="">
+                <p className="text-base !font-normal text-justify">
+                  {t.description}
+                </p>
+              </div>
+            </div>
+          </VerticalTimelineElement>
+        ))}
+      </VerticalTimeline>
     </div>
   );
 }

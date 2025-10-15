@@ -1,0 +1,159 @@
+[
+  {
+    "class": "Front End",
+    "skill": "JavaScript",
+    "progress": 95,
+    "icon": "js.png"
+  },
+  {
+    "class": "Front End",
+    "skill": "React",
+    "progress": 95,
+    "icon": "react.png"
+  },
+  {
+    "class": "Front End",
+    "skill": "TypeScript",
+    "progress": 90,
+    "icon": "typescript.png"
+  },
+  {
+    "class": "Front End",
+    "skill": "HTML",
+    "progress": 95,
+    "icon": "html.png"
+  },
+  {
+    "class": "Front End",
+    "skill": "CSS",
+    "progress": 95,
+    "icon": "css.png"
+  },
+  {
+    "class": "Front End",
+    "skill": "Tailwind CSS",
+    "progress": 95,
+    "icon": "tailwind.png"
+  },
+
+  {
+    "class": "Front End",
+    "skill": "Redux",
+    "progress": 80,
+    "icon": "redux.svg"
+  },
+  {
+    "class": "Back End",
+    "skill": "Python",
+    "progress": 95,
+    "icon": "python.png"
+  },
+  {
+    "class": "Back End",
+    "skill": "SQL",
+    "progress": 95,
+    "icon": "sql.png"
+  },
+  {
+    "class": "Back End",
+    "skill": "PostgreSQL",
+    "progress": 95,
+    "icon": "postgrel.png"
+  },
+  {
+    "class": "Back End",
+    "skill": "Java",
+    "progress": 90,
+    "icon": "java.png"
+  },
+  {
+    "class": "Back End",
+    "skill": "Java Spring Boot",
+    "progress": 90,
+    "icon": "spring.png"
+  },
+  {
+    "class": "Back End",
+    "skill": "C",
+    "progress": 85,
+    "icon": "c.png"
+  },
+  {
+    "class": "Back End",
+    "skill": "Go",
+    "progress": 80,
+    "icon": "go.png"
+  },
+  {
+    "class": "ML/AI",
+    "skill": "Pytorch",
+    "progress": 85,
+    "icon": "torch.png"
+  },
+  {
+    "class": "ML/AI",
+    "skill": "Scikit-Learn",
+    "progress": 90,
+    "icon": "scikit.png"
+  },
+  {
+    "class": "ML/AI",
+    "skill": "Numpy",
+    "progress": 90,
+    "icon": "numpy.svg"
+  },
+  {
+    "class": "ML/AI",
+    "skill": "Pandas",
+    "progress": 90,
+    "icon": "pandas.png"
+  },
+  {
+    "class": "ML/AI",
+    "skill": "Deep Learning",
+    "progress": 90,
+    "icon": "dl.png"
+  },
+  {
+    "class": "ML/AI",
+    "skill": "ChatGPT",
+    "progress": 95,
+    "icon": "chatgpt.png"
+  },
+  {
+    "class": "Tools",
+    "skill": "Git",
+    "progress": 95,
+    "icon": "git.png"
+  },
+  {
+    "class": "Tools",
+    "skill": "Postman",
+    "progress": 95,
+    "icon": "postman.png"
+  },
+  {
+    "class": "Tools",
+    "skill": "Figma",
+    "progress": 95,
+    "icon": "figma.png"
+  },
+  {
+    "class": "Tools",
+    "skill": "Scrapy",
+    "progress": 95,
+    "icon": "scrapy.webp"
+  },
+  {
+    "class": "Tools",
+    "skill": "PlayWright",
+    "progress": 85,
+    "icon": "playwright.png"
+  },
+  {
+    "class": "Tools",
+    "skill": "Excel",
+    "progress": 90,
+    "icon": "excel.png"
+  }
+]

@@ -8,7 +8,10 @@ type SkillsCardProps = {
 
 export default function SkillCard({ skill, progress, img }: SkillsCardProps) {
   return (
-    <div className="flex flex-col justify-between bg-[hsl(var(--card-bg))] w-[304px] h-[128px] p-6 text-xl rounded-sm">
+    <div
+      className="flex flex-col justify-between bg-[hsl(var(--card-bg))] w-[304px] h-[128px] p-6 text-xl rounded-sm
+     transform transition duration-300 hover:scale-110 hover:shadow-[0_10px_15px_-3px_rgba(0,0,0,0.25)]"
+    >
       <div className="flex gap-2 items-center">
         <SkillIcon imgName={img} />
         <h1>{skill}</h1>

@@ -42,7 +42,7 @@ export default function ProjectCard({
           {projectInfo.title}
         </h1>
 
-        <p className="self-center text-center max-w-xs mb-5">
+        <p className="self-center text-center max-w-md md:max-w-xs mb-5">
           {projectInfo.description}
         </p>
 

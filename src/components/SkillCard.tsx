@@ -18,7 +18,7 @@ export default function SkillCard({ skill, progress, img }: SkillsCardProps) {
       </div>
 
       {/* <progress max="100" value={10} className="skill-progress"></progress> */}
-      <div className="w-full h-3 bg-[var(--navbar-text-color)] rounded-full overflow-hidden">
+      <div className="w-full h-3 bg-[hsl(220_5%_70%)] rounded-full overflow-hidden">
         <div
           className="h-full bg-[hsl(var(--theme-color))] rounded-full"
           style={{ width: `${progress}%` }}

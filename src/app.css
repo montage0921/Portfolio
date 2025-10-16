@@ -5,7 +5,7 @@
   --bg-color: 210 50% 98%; /*white*/
   --theme-color: 250 47% 60%; /*purple*/
   --main-text-color: 222 46% 11%; /*black*/
-  --navbar-text-color: 222 46% 11%;
+  --navbar-text-color: hsl(222 46% 11%);
   --card-bg: 0 0% 100%; /* #fafafa — light gray */
   --card-text: 210 10% 20%; /* dark gray text */
   --date-color: var(--main-text-color);

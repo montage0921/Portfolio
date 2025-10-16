@@ -1,0 +1,31 @@
+[
+  {
+    "imgsrc": "filmscope.png",
+    "tags": [
+      "react",
+      "tailwindcss",
+      "Java Spring Boot",
+      "Database",
+      "Web Scraping"
+    ],
+    "title": "FilmScope Toronto",
+    "description": "A powerful indie film showtime aggregation platform for theaters in the Toronto area.",
+    "github": "https://github.com/montage0921/Full_Stack_FilmScope_Toronto",
+    "link": ""
+  },
+  {
+    "imgsrc": "usedcar.png",
+    "tags": ["python", "EDA", "Machine Learning", "Database", "Web Scraping"],
+    "title": "UsedCar Price Predictor",
+    "description": "Accurately predict used car prices using self-collected data and machine learning.",
+    "github": "https://github.com/montage0921/CSE587-Project-UsedCarPricePrediction",
+    "link": "https://cse587-project-usedcarpriceprediction.onrender.com/"
+  },
+  {
+    "imgsrc": "signlanguage.png",
+    "tags": ["python", "Deep Learning", "CNN", "LSTM"],
+    "title": "Word-Level Sign Language Classifier",
+    "description": "Recognize word-level sign language using advanced deep learning model",
+    "github": "https://github.com/JiabaoYao/Sign-Language-Recognition/tree/main/models"
+  }
+]

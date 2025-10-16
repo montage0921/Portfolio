@@ -1,5 +1,5 @@
 "use client";
-import React, { useEffect, useState } from "react";
+import { useEffect, useState } from "react";
 import Logo from "../components/Logo";
 import Nav from "../components/Nav";
 import DarkMode from "../components/DarkMode";
@@ -33,7 +33,7 @@ export default function NavBar() {
       if (e.clientY < 50) {
         setIsVisible(true);
       } else {
-        setIsVisible(false);
+        if (window.scrollY > 100) setIsVisible(false);
       }
     }
 

@@ -8,7 +8,7 @@ export default function Projects() {
   return (
     <div
       id="projects"
-      className="min-h-screen pt-30 flex flex-col items-center gap-3"
+      className="min-h-screen pt-20 flex flex-col items-center gap-3"
     >
       <SectionTitle text="Featured" coloredText="Project" />
       <p className="max-w-2xl text-center">

@@ -6,7 +6,7 @@ export default function Contacts() {
   return (
     <div
       id="contact"
-      className="min-h-screen pt-30 flex flex-col items-center gap-3"
+      className="min-h-screen pt-20 flex flex-col items-center gap-3"
     >
       <SectionTitle text="Get In" coloredText="Touch" />
       <p className="max-w-sm md:max-w-2xl text-center">

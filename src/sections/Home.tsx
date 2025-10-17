@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="min-h-screen flex flex-col justify-between items-center pt-40 "
+      className="min-h-screen flex flex-col justify-between items-center pt-10 "
     >
       <div className="flex flex-col justify-center items-center gap-6 mt-30">
         {" "}

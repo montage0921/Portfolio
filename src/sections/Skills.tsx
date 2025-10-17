@@ -5,7 +5,7 @@ export default function Skills() {
   return (
     <div
       id="skills"
-      className="min-h-screen flex flex-col items-center gap-7 pt-30"
+      className="min-h-screen flex flex-col items-center gap-7 pt-20"
     >
       <SectionTitle text="My" coloredText="Skills" />
       <SkillDisplay />

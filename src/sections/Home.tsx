@@ -1,4 +1,3 @@
-import React from "react";
 import { motion } from "framer-motion";
 import MyButton from "../utility/MyButton";
 import { ChevronDown } from "lucide-react";

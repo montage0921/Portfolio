@@ -1,25 +1,24 @@
 import { useState } from "react";
-import { siGithub } from "simple-icons";
+import { siWechat } from "simple-icons";
 
-type GithubIconProps = {
+type WechatProps = {
   size?: number;
   href?: string;
   hoveredColor?: string;
 };
 
-export default function GithubIcon({
+export default function Wechat({
   size = 24,
-  href,
   hoveredColor = "var(--theme-color)",
-}: GithubIconProps) {
+}: WechatProps) {
   const [isHover, setIsHover] = useState(false);
+  const [isClick, setIsClick] = useState(false);
   return (
-    <a
-      href={href}
-      target="_blank"
+    <div
       onMouseEnter={() => setIsHover(true)}
       onMouseLeave={() => setIsHover(false)}
-      className="hover:cursor-pointer"
+      className="relative hover:cursor-pointer"
+      onClick={() => setIsClick(!isClick)}
     >
       <svg
         role="img"
@@ -29,8 +28,13 @@ export default function GithubIcon({
         fill={isHover ? `hsl(${hoveredColor})` : "currentColor"}
         xmlns="http://www.w3.org/2000/svg"
       >
-        <path d={siGithub.path} />
+        <path d={siWechat.path} />
       </svg>
-    </a>
+      {isClick && (
+        <div className="absolute top-full left-1/2 -translate-x-1/2 mt-2  w-[200px] text-center rounded shadow-lg opacity-80">
+          Wechat ID: akaGRgary
+        </div>
+      )}
+    </div>
   );
 }

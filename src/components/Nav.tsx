@@ -12,7 +12,7 @@ export default function Nav() {
   }
 
   return (
-    <div className="hidden md:flex pl-64  gap-x-8 text-[var(--navbar-text-color)] font-semibold">
+    <div className="hidden md:flex pl-32  gap-x-8 text-[var(--navbar-text-color)] font-semibold">
       {sections.map((section, i) => (
         <div
           className="hover:text-[hsl(var(--theme-color))] hover: cursor-pointer"
@@ -23,7 +23,7 @@ export default function Nav() {
         </div>
       ))}
       <a
-        className="pl-30 flex gap-1 hover:text-[hsl(var(--theme-color))] hover: cursor-pointer"
+        className="pl-15 flex gap-1 hover:text-[hsl(var(--theme-color))] hover: cursor-pointer"
         href="public\Te Shi - Resume.pdf"
         download={true}
       >

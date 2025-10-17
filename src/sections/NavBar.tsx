@@ -55,7 +55,7 @@ export default function NavBar() {
 
   return (
     <div
-      className={`px-2 flex items-center justify-between md:px-8 py-4 transition-opacity duration-500 ${
+      className={`px-2 flex items-center justify-between py-2 transition-opacity duration-500 ${
         isVisible
           ? "opacity-100 pointer-events-auto"
           : "opacity-0 pointer-events-none"

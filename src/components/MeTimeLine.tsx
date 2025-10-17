@@ -10,11 +10,10 @@ import timeline from "../data/timeline.json";
 export default function MeTimeLine() {
   return (
     <div
+      className="w-full max-w-[600px] h-[500px] overflow-y-auto"
       style={{
         marginTop: "30px",
-        height: "500px",
-        width: "600px",
-        overflowY: "scroll",
+
         scrollbarWidth: "none" /* Firefox */,
         msOverflowStyle: "none" /* IE/Edge */,
       }}
@@ -22,12 +21,12 @@ export default function MeTimeLine() {
       <VerticalTimeline lineColor="hsl(250 47% 60%)" layout="1-column-left">
         {timeline.map((t) => (
           <VerticalTimelineElement
+            className="w-[100%] md:w-[500px]"
             contentStyle={{
               background: "hsl(var(--card-bg))",
               color: "hsl(var(--card-text))",
               boxShadow: "none",
               borderRadius: "12px",
-              width: "460px",
               paddingBottom: "0px",
               paddingRight: "25px",
             }}

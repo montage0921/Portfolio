@@ -12,7 +12,7 @@ export default function Home() {
   return (
     <div
       id="home"
-      className="min-h-screen flex flex-col justify-between items-center pt-30 md:pt-40 "
+      className="min-h-screen flex flex-col justify-between items-center pt-40 "
     >
       <div className="flex flex-col justify-center items-center gap-6 mt-30">
         {" "}
@@ -26,7 +26,7 @@ export default function Home() {
           Shi
         </motion.h1>
         <motion.p
-          className="text-base md:text-xl max-w-xl text-center"
+          className="text-base max-w-sm md:text-xl md:max-w-xl text-center"
           initial={{ opacity: 0, y: 30 }}
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.8, duration: 0.8, ease: "easeOut" }}

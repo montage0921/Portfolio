@@ -12,10 +12,10 @@ export default function SkillDisplay() {
   }
   return (
     <div className="flex flex-col gap-8 items-center w-full ">
-      <ul className="px-5 flex gap-10 text-xl text-[var(--navbar-text-color)]">
+      <ul className="px-5 flex gap-5 md:gap-10 text-lg md:text-xl text-[var(--navbar-text-color)]">
         {tabs.map((t, i) => (
           <li
-            className={`${
+            className={`whitespace-nowrap ${
               selectedTab === t ? "text-[hsl(var(--theme-color))]" : ""
             } hover:cursor-pointer`}
             key={i}
@@ -25,7 +25,7 @@ export default function SkillDisplay() {
           </li>
         ))}
       </ul>
-      <div className="grid grid-cols-2 md:grid-cols-3 gap-5">
+      <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-5">
         {selectedTab === "All"
           ? skills.map((s, i) => (
               <SkillCard

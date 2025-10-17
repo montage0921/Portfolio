@@ -22,7 +22,7 @@ function App() {
   }, [setIsDarkMode]);
 
   return (
-    <div className=" min-h-screen bg-[hsl(var(--bg-color))] text-[hsl(var(--main-text-color))]  transition-colors duration-300">
+    <div className="w-full min-h-screen overflow-x-hidden bg-[hsl(var(--bg-color))] text-[hsl(var(--main-text-color))]  transition-colors duration-300">
       <div className="fixed top-0 left-0 w-full z-50">
         <NavBar />
       </div>

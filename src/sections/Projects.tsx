@@ -16,7 +16,7 @@ export default function Projects() {
         with attention to detail, performance, and user experience. It is
         updated constantly.
       </p>
-      <div className="grid px-20 grid-cols-1 md:grid-cols-3 gap-8">
+      <div className="flex flex-col items-center md:px-20 md:grid md:grid-cols-3 gap-8">
         {project.map((p) => (
           <ProjectCard projectInfo={p} />
         ))}

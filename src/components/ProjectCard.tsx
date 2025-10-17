@@ -18,7 +18,7 @@ export default function ProjectCard({
 }) {
   return (
     <div
-      className="group bg-[hsl(var(--card-bg))] rounded-md w-[500px] md:w-[350px] shadow-lg flex flex-col gap-5 overflow-hidden
+      className="group bg-[hsl(var(--card-bg))] rounded-md w-[90%] md:w-[350px] shadow-lg flex flex-col gap-5 overflow-hidden
       transform transition duration-300 ease-out hover:scale-105 hover:shadow-xl"
     >
       {/* Image container */}

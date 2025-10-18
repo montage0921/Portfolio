@@ -1,6 +1,10 @@
+import { useState } from "react";
+
 export default function EmailForm() {
+  const [isLoading, setIsLoading] = useState(false);
   async function handleSendEmail(e: React.FormEvent<HTMLFormElement>) {
     e.preventDefault();
+    setIsLoading(true);
 
     const form = e.currentTarget;
     const data = Object.fromEntries(new FormData(form));
@@ -12,12 +16,14 @@ export default function EmailForm() {
         body: JSON.stringify(data),
       });
       if (res.ok) {
-        e.currentTarget.reset();
+        form.reset();
       } else {
         console.log("Failed to send the message");
       }
     } catch {
       console.log("Something went wrong");
+    } finally {
+      setIsLoading(false);
     }
   }
 
@@ -66,7 +72,7 @@ export default function EmailForm() {
                    md:text-base hover:cursor-pointer transition-transform duration-300 
                    hover:scale-[1.05]"
       >
-        Send a message
+        {isLoading ? "Sending..." : "Send a message"}
       </button>
     </form>
   );

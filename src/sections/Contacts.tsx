@@ -13,7 +13,7 @@ export default function Contacts() {
         Have a project in mind or want to collaborate? Feel free to reach out.
         I'm always open to discussing new opportunitie
       </p>
-      <div className="flex flex-col md:flex-row">
+      <div className="flex flex-col gap-5 md:flex-row">
         <ContactInfo />
         <EmailForm />
       </div>

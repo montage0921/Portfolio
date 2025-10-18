@@ -24,7 +24,7 @@ export default function Nav() {
       ))}
       <a
         className="pl-15 flex gap-1 hover:text-[hsl(var(--theme-color))] hover: cursor-pointer"
-        href="public\Te Shi - Resume.pdf"
+        href="/Te%20Shi%20-%20Resume.pdf"
         download={true}
       >
         <Download />

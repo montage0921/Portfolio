@@ -31,7 +31,7 @@ export default function MeIntro() {
           borderColor="var(--theme-color)"
           text={"Download Resume"}
           download={true}
-          href="public\Te Shi - Resume.pdf"
+          href="/Te%20Shi%20-%20Resume.pdf"
         />
       </div>
     </div>

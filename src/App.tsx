@@ -7,7 +7,7 @@ import Journey from "./sections/Journey";
 import Skills from "./sections/Skills";
 import Projects from "./sections/Projects";
 import Contacts from "./sections/Contacts";
-import { Analytics } from "@vercel/analytics/next";
+import { Analytics } from "@vercel/analytics/react";
 
 function App() {
   const { setIsDarkMode } = useDarkMode();
